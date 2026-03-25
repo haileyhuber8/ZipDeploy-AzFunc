@@ -3,3 +3,6 @@
 name: ZipDeploy-AzFunc
 metadata:
   template: ZipDeploy-AzFunc@0.0.1-beta
+infrastructure:
+  provider: bicep
+  path: deployment/infra
